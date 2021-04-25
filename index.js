@@ -2,7 +2,7 @@ const read = require('readline-sync');
 const name = read.question('What is your name?\n');
 let question_number = 0 , option_number =0 ,sum=0
 console.log(`Hi ${name}, welcome to badminton quiz below has five questions on badmiton and each correct answer will give you 20 points\n`);
-read.question('Please enter button\n');
+read.question('Please click enter button\n');
 const quiz_questions = [
   {
     question : "When a badminton player wins a rally, how many points can he or she get??",
